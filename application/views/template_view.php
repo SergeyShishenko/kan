@@ -19,8 +19,8 @@ Modified by VitalySwipe
 		<title>ОЛОЛОША TEAM</title>
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
 		<link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" type="text/css" href="dist/css/style.css" />
-		<script src="dist/js/jquery-1.6.2.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="/dist/css/style.css" />
+		<script src="/dist/js/jquery-1.6.2.js" type="text/javascript"></script>
 		<script type="text/javascript">
 		// return a random integer between 0 and number
 		function random(number) {

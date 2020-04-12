@@ -6,6 +6,7 @@ class Controller_Admin extends Controller
 	function action_index()
 	{
 		session_start();
+		// echo $_SESSION['admin'];
 		
 		/*
 		Для простоты, в нашем случае, проверяется равенство сессионной переменной admin прописанному
