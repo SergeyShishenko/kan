@@ -1,22 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 3.0 License
+<!DOCTYPE html >
 
-Name       : Accumen
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20120712
-
-Modified by VitalySwipe
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html >
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<title>ОЛОЛОША TEAM</title>
+		<title>ВАША МЕБЕЛЬ</title>
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
 		<link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="/dist/css/style.css" />
@@ -43,7 +32,8 @@ Modified by VitalySwipe
 		<div id="wrapper">
 			<div id="header">
 				<div id="logo">
-					<a href="/">ОЛОЛОША</span> <span class="cms">TEAM</span></a>
+					<!-- <a href="/">ОЛОЛОША</span> <span class="cms">TEAM</span></a> -->
+					<a href="/">ВАША</span> <span class="cms">МЕБЕЛЬ</span></a>
 				</div>
 				<div id="menu">
 					<ul>

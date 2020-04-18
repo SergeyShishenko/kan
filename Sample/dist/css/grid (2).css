@@ -1,0 +1,58 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #eee;
+}
+.container > div{
+  height: 114px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  /* background-color: rgba(86,61,124,.15); */
+  background-color: #e7e7e7;
+  /* border: 1px solid rgba(86,61,124,.2); */
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* .inner {
+  display: table-cell;
+   vertical-align: middle;
+     height: 65px;
+     width: 80%;
+     
+  
+}
+.inner > input{
+  width: 80% !important; 
+  margin-left: 5%;
+} */
+
+.inner {
+  width: 80% !important; 
+  /* margin-left: 5%; */
+  display: inline-block !important;
+}
+
+/* @media (max-width: 767px) {
+  .inner {
+    height: auto;
+  }
+} */

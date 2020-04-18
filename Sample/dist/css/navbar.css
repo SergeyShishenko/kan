@@ -1,0 +1,41 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* .navbar {
+  margin-bottom: 15px;
+  margin-top: 15px;
+} */
+
+body:first-child{
+  padding-top: 0;
+}
+/*  */
+.header {
+  /* float: left;
+margin: 15px 0 0 27px; */
+  /* padding-top: 15px; */
+  padding-bottom: 0;
+}
+/* .contacts{
+float: left;
+} */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 9998;
+}
+@media (min-width: 768px){
+
+.navbar-left {
+float: none !important;
+
+}}
+/* .header{
+padding-top: 0;
+} */
+.dropdown-menu {
+z-index: 9999;
+}
