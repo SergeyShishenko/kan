@@ -14,7 +14,7 @@
     <!-- <link rel="stylesheet" href="./dist/slider/css/reset.css" type="text/css" charset="utf-8" /> -->
     <link rel="stylesheet" href="./dist/slider/css/style.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="./dist/slider/css/fractionslider.css">
-    <!-- <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" /> -->
+    <link rel="stylesheet" href="./dist/css/jquery.fancybox.css" type="text/css" media="screen" />
 
 
     <style>
@@ -25,22 +25,30 @@
 
     </style>
     <style>
-        .thumb img {
-            -webkit-filter: grayscale(0);
-            filter: none;
+        .thumb img {           
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+
             border-radius: 5px;
             background-color: #fff;
             border: 1px solid #ddd;
             padding: 5px;
+      
         }
 
         .thumb img:hover {
-            -webkit-filter: grayscale(1);
-            filter: grayscale(1);
+            -webkit-filter: grayscale(0);
+            filter: none;
+            transition: 0.5s ease-in-out;
+            
         }
 
-        .thumb {
-            padding: 5px;
+       .thumb {
+             padding: 5px;
         }
     </style>
 </head>
@@ -54,9 +62,7 @@
                 <img src="dist/images/kan-cub.png" alt="" title="" style="width: 158px; height: 82px;"          />
             </a>
         </div>
-        <div class="col-md-4 topmenu">
-
-        
+        <div class="col-md-4 topmenu">        
             <form class="navbar-form navbar-left" role="search">
                 <div class="row">
                     <div class=" row " style="margin-left: 0;">
@@ -69,8 +75,6 @@
                 </div>
 
             </form>
-
-
         </div>
         <div class="col-md-5 topmenu">
 
@@ -177,7 +181,7 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
+                    <li class="">
                         <a href="./">Контакты</a>
                     </li>
                     <!-- <li>
@@ -222,13 +226,13 @@
 
                         <!-- <img src="dist/slider/images/01_box_bottom.png" data-position="138,-152" data-in="bottomRight" data-delay="200" data-out="bottomRight"> -->
 
-                        <p class="claim light-green small" data-position="30,30" data-in="top" data-step="1" data-out="top">Что ожидать?</p>
+                        <p class="claim light-green " data-position="30,30" data-in="top" data-step="1" data-out="top">Что ожидать?</p>
 
-                        <p class="teaser turky small" data-position="90,30" data-in="bottom" data-step="2" data-delay="500">unlimited elements</p>
-                        <p class="teaser turky small" data-position="120,30" data-in="bottom" data-step="2" data-delay="1500">много переходов</p>
-                        <p class="teaser turky small" data-position="150,30" data-in="bottom" data-step="2" data-delay="2500">unlimited slides</p>
-                        <p class="teaser turky small" data-position="180,30" data-in="bottom" data-step="2" data-delay="3500">фоновая анимация</p>
-                        <p class="teaser turky small" data-position="210,30" data-in="bottom" data-step="2" data-delay="4500">простой в использовании</p>
+                        <p class="teaser turky " data-position="90,30" data-in="bottom" data-step="2" data-delay="500">unlimited elements</p>
+                        <p class="teaser turky " data-position="120,30" data-in="bottom" data-step="2" data-delay="1500">много переходов</p>
+                        <p class="teaser turky " data-position="150,30" data-in="bottom" data-step="2" data-delay="2500">unlimited slides</p>
+                        <p class="teaser turky " data-position="180,30" data-in="bottom" data-step="2" data-delay="3500">фоновая анимация</p>
+                        <p class="teaser turky " data-position="210,30" data-in="bottom" data-step="2" data-delay="4500">простой в использовании</p>
 
                         <!-- <img src="dist/slider/images/01_waves.png" width="1449" height="115" data-position="240,200" data-in="right" data-step="2" data-easeIn="easeOutCirc"> -->
                             
@@ -266,11 +270,12 @@
 
                         <p class="claim light-green small" data-position="30,30" data-in="top" data-step="1" data-out="top">Что ожидать?</p>
 
-                        <p class="teaser turky small" data-position="90,30" data-in="bottom" data-step="2" data-delay="500">unlimited elements</p>
-                        <p class="teaser turky small" data-position="120,30" data-in="bottom" data-step="2" data-delay="1500">много переходов</p>
-                        <p class="teaser turky small" data-position="150,30" data-in="bottom" data-step="2" data-delay="2500">unlimited slides</p>
-                        <p class="teaser turky small" data-position="180,30" data-in="bottom" data-step="2" data-delay="3500">фоновая анимация</p>
-                        <p class="teaser turky small" data-position="210,30" data-in="bottom" data-step="2" data-delay="4500">простой в использовании</p>
+                        <p class="teaser turky " data-position="90,30" data-in="bottom" data-step="2" data-delay="500">unlimited elements</p>
+                        <p class="teaser turky" data-position="120,30" data-in="bottom" data-step="2" data-delay="1500">много переходов</p>
+                        <p class="teaser turky " data-position="150,30" data-in="bottom" data-step="2" data-delay="2500">unlimited slides</p>
+                        <p class="teaser turky " data-position="180,30" data-in="bottom" data-step="2" data-delay="3500">фоновая анимация</p>
+                        <p class="teaser turky " data-position="210,30" data-in="bottom" data-step="2" data-delay="4500">простой в использовании</p>
+                        <!-- <p class="teaser turky small" data-position="210,30" data-in="bottom" data-step="2" data-delay="4500">простой в использовании</p> -->
 
                         <!-- <img src="dist/slider/images/01_waves.png" width="1449" height="115" data-position="240,200" data-in="right" data-step="2" data-easeIn="easeOutCirc"> -->
                             
@@ -323,76 +328,19 @@
     <div class="container">
         <div class="row">
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="gallery-title">Gallery</h1>
+            <h1 class="gallery-title">Галерея</h1>
         </div>
 
-
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe thumb fancybox">
-                <!-- <img src="./examples/images/for-image-gallery/img_01.jpg" class="img-responsive"> -->
-                <!-- <a class="fancyimage" data-fancybox-group="group" href="http://smebkan/Sample/examples/images/for-image-gallery/img_01.jpg"> <img class="img-responsive" src="http://smebkan/Sample/examples/images/for-image-gallery/img_01.jpg" /> </a> -->
-                <a data-fancybox="gallery" rel="group" href="./examples/images/for-image-gallery/img_01.jpg">
-                    <img class="img-fluid" src="./examples/images/for-image-gallery/img_01.jpg" alt="">
-                </a>
+<?php for($i=1;$i<=18;$i++){?>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 thumb">  
+                <a data-fancybox="gallery" href="./examples/images/for-image-gallery/img_<?php echo $i;?>.jpg">
+                <img src="./examples/images/for-image-gallery/img_<?php echo $i;?>.jpg" class="img-responsive" alt="">
+            </a>
             </div>
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe thumb fancybox">
-                <!-- <img src="./examples/images/for-image-gallery/img_01.jpg" class="img-responsive"> -->
-                <!-- <a class="fancyimage" data-fancybox-group="group" href="http://smebkan/Sample/examples/images/for-image-gallery/img_01.jpg"> <img class="img-responsive" src="http://smebkan/Sample/examples/images/for-image-gallery/img_01.jpg" /> </a> -->
-                <a data-fancybox="gallery" rel="group" href="./examples/images/for-image-gallery/img_02.jpg">
-                    <img class="img-fluid" src="./examples/images/for-image-gallery/img_02.jpg" alt="">
-                </a>
-            </div>
-
-
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+<?php }?>        
+    
         </div>
     </div>
-
-    
-
 
     <!-- Bootstrap core JavaScript
       ================================================== -->
@@ -402,11 +350,9 @@
     <script src="./dist/slider/js/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
     <script src="./dist/slider/js/main.js" type="text/javascript" charset="utf-8"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
-    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
-<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript" src="/fancybox/jquery.easing-1.4.pack.js"></script>
-<script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <script src="./dist/js/jquery.fancybox.js"></script>
+   
+
     <!-- <script>
           window.onscroll = function() {myFunction()};
           
